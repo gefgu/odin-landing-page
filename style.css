@@ -6,14 +6,6 @@ body {
     margin: 0;
 }
 
-.header {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-around;
-    padding: 8px;
-    align-items: center;
-}
-
 .header h2 {
     font-size: 24px;
     color: #f9faf8;
@@ -31,4 +23,41 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .left {
+    width: 375px;
+}
+
+.main p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero {
+    justify-content: space-around;
 }
