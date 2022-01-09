@@ -68,6 +68,16 @@ a {
     color: #f9faf8;
 }
 
+.main button {
+    padding: 8px 24px;
+    background-color: #3882f6;
+    border: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 .hero {
     justify-content: space-around;
 }
