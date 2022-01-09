@@ -27,7 +27,7 @@ a {
 
 .hero {
     background-color: #1f2937;
-    padding: 16px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
 }
@@ -40,11 +40,21 @@ a {
 
 .main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 32px;
+    margin: 64px 0;
 }
 
 .main .left {
-    width: 375px;
+    width: 475px;
+}
+
+.main .right {
+    background-color: gray;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main p {
