@@ -31,10 +31,6 @@ a {
 }
 
 
-.main .right {
-    background-color: rgb(88, 97, 99);
-}
-
 .main p {
     font-size: 18px;
     color: #E5E7EB;
@@ -65,4 +61,17 @@ a {
 .main {
     margin: 128px 0;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.main .left {
+    width: 475px;
+}
+
+.main .right {
+    background-color: rgb(88, 97, 99);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
