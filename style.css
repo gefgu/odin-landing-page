@@ -179,3 +179,17 @@ a {
     border: 2px solid #E5E7EB;
     border-radius: 10px;
 }
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #1f2937;
+}
+
+.footer p {
+    color: #E5E7EB;
+}
