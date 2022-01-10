@@ -61,3 +61,8 @@ a {
     align-items: center;
     justify-content: space-around;
 }
+
+.main {
+    margin: 128px 0;
+    display: flex;
+}
