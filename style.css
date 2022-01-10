@@ -114,16 +114,28 @@ a {
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 128px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 940px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    width: 1000px;
+    margin: 0;
 }
 
 .attribution {
     font-weight: 900;
     color: #1f2937;
+    margin: 0 16px;
+    align-self: flex-end;
 }
