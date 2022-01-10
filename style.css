@@ -86,3 +86,18 @@ a {
     height: 200px;
     width: 200px;
 }
+
+.info {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.card {
+    width: 200px;
+}
