@@ -139,3 +139,31 @@ a {
     margin: 0 16px;
     align-self: flex-end;
 }
+
+/* Call to action section */
+
+.cta-box {
+    background-color: #3882f6;
+}
+
+.cta-box h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cta-box p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.cta-box button {
+    padding: 4px 24px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
