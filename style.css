@@ -101,3 +101,10 @@ a {
 .card {
     width: 200px;
 }
+
+.info h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 64px 0;
+}
