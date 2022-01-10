@@ -155,7 +155,7 @@ a {
     display: flex;
     gap: 128px;
     padding: 64px 128px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .cta-box h4 {
