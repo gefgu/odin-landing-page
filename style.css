@@ -6,7 +6,9 @@ body {
     margin: 0;
 }
 
-.header h2 {
+/* Hero Section */
+
+.nav h2 {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -25,24 +27,24 @@ a {
     text-decoration: none;
 }
 
-.hero {
+.header {
     background-color: #1f2937;
     padding: 8px 32px;
 }
 
 
-.main p {
+.hero p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.main h1{
+.hero h1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 
-.main button {
+.hero button {
     padding: 8px 24px;
     background-color: #3882f6;
     border: 0;
@@ -52,23 +54,23 @@ a {
     border-radius: 5px;
 }
 
-.header {
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.main {
+.hero {
     margin: 128px 0;
     display: flex;
     justify-content: space-evenly;
 }
 
-.main .left {
+.hero .left {
     width: 475px;
 }
 
-.main .right {
+.hero .right {
     background-color: rgb(88, 97, 99);
     width: 500px;
     display: flex;
