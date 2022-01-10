@@ -109,3 +109,21 @@ a {
     font-weight: 900;
     margin: 64px 0;
 }
+
+/* Quote section */
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 1000px;
+}
+
+.attribution {
+    font-weight: 900;
+    color: #1f2937;
+}
