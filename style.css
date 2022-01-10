@@ -142,8 +142,20 @@ a {
 
 /* Call to action section */
 
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 64px 0;
+}
+
+
 .cta-box {
     background-color: #3882f6;
+    display: flex;
+    gap: 128px;
+    padding: 64px 128px;
+    border-radius: 25px;
 }
 
 .cta-box h4 {
@@ -159,11 +171,11 @@ a {
 }
 
 .cta-box button {
-    padding: 4px 24px;
+    padding: 4px 36px;
     background-color: #3882f6;
     font-size: 18px;
     color: #E5E7EB;
     font-weight: bold;
     border: 2px solid #E5E7EB;
-    border-radius: 5px;
+    border-radius: 10px;
 }
