@@ -27,34 +27,12 @@ a {
 
 .hero {
     background-color: #1f2937;
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
+    padding: 8px 64px;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    margin: 64px 0;
-}
-
-.main .left {
-    width: 475px;
-}
 
 .main .right {
-    background-color: gray;
-    width: 425px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(88, 97, 99);
 }
 
 .main p {
@@ -76,8 +54,4 @@ a {
     color: #E5E7EB;
     font-weight: bold;
     border-radius: 5px;
-}
-
-.hero {
-    justify-content: space-around;
 }
